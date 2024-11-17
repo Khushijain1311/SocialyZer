@@ -1,0 +1,198 @@
+*
+{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Outfit&family=Uchen&display=swap');
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   font-family:'mukta';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eeffeabb;
+}
+.container
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height:100%;
+    background-image: url("https://img.freepik.com/premium-psd/browser-clay-mockup_752362-13.jpg?w=1380");
+}
+
+.register
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:92vh;
+}
+.register-container {
+    width: 100%;
+    max-width: 360px;
+    opacity:.95;
+    max-height:500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgb(123, 194, 123);
+    border-radius: 4px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    /* background-color: black; */
+    /* color: #fff; */
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    font-size:18px;
+    font-weight:500px;
+    cursor: pointer;
+    /* transition:background-color;
+    transition-duration:0.5s;
+    transition-timing-function:ease-in;
+    transition-delay:0.2s; */
+}
+
+/* #registerForm a{
+  text-decoration: none;
+  color: white;
+} */
+
+.btnanchor {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color:rgb(28, 27, 27);
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  font-size:18px;
+  font-weight:500px;
+  cursor: pointer;
+}
+
+
+/* .btnanchor:hover{
+ background-color: white;
+ color:black;
+} */
+.btnanchor a{
+  text-decoration: none;
+  color:white;
+}
+
+#register-heading
+{
+    margin-bottom:20px;
+    text-align:center;
+}
+
+/*navbar css*/
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    width:100vw;
+    height:8vh;
+    display:flex;
+    font-size:18px;
+    justify-content:space-between;
+    align-items:center;
+    font-weight:500;
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    width:100px;
+    
+    text-decoration: none;
+    border-radius:4px;
+  }
+  .navbar a:hover {
+    background-color: #c4e6c560;
+  }
+  .navbar a.right {
+    float: right;
+  }
+  @media screen and (max-width: 600px) {
+    .navbar a.right {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+    .forgot-password{
+        margin-bottom:20px;
+    }
+  .forgot-password a
+  {
+    text-decoration:none;
+    color:black;
+  }
+
+  /* utility class*/
+
+  .shadow
+  {
+    box-shadow:5px 5px 10px 2px  #1a862e76;
+  }
+  .btn .anchor{
+    text-decoration:none;
+    color:black;
+  }
+  .btn .anchor:hover
+  {
+   /* background-color: black; */
+  }
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+    .register-head
+    {
+        font-size:14px;
+    }
+}

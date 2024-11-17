@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+  
+  .social-icons {
+    margin-left:300px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  .social-icons img {
+    width: 20px;
+    height: 20px;
+  }
+  
+ 
+  
